@@ -1,0 +1,8 @@
+<launch>
+    <node name="Node1" pkg="synchroniz" type="Node1" args="">
+    </node>
+    <node name="Node2" pkg="synchroniz" type="Node2" args="">
+    </node>
+    <node name="syncNode" pkg="synchroniz" type="syncNode" args="">
+    </node>
+</launch>
